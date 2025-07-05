@@ -42,29 +42,29 @@ Content only:
 # Tutorial Description
 
 ## 1. Basic Chat Model
-Introduction to LangChain's chat models
-Simple message passing
-Basic model configuration
+- Introduction to LangChain's chat models
+- Simple message passing
+- Basic model configuration
 
 ## 2. Basic Conversation
-Multi-turn conversations
-Message history management
-Context preservation
+- Multi-turn conversations
+- Message history management
+- Context preservation
 
 ## 3. Alternative Models
-Working with different LLM providers
-Model comparison
-Configuration options
+- Working with different LLM providers
+- Model comparison
+- Configuration options
 
 ## 4. Interactive Chat
-User input handling
-Real-time conversation flow
-Error handling
+- User input handling
+- Real-time conversation flow
+- Error handling
 
 ## 5. Message History with Firebase
-Persistent message storage
-Firebase integration
-Retrieving conversation history
+- Persistent message storage
+- Firebase integration
+- Retrieving conversation history
 
 ## 🔧 Dependencies
 

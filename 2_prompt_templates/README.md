@@ -47,22 +47,29 @@ print(formatted_prompt)
 **Code Breakdown:**
 
 # Part 1: Basic chat prompt template
+```python
 template = "Tell me a joke about {topic}."
 prompt_template = ChatPromptTemplate.from_template(template)
+```
 
 # Part 2: Multiple placeholders
+```python
 template_multiple = """You are a helpful assistant.
 Human: Tell me a {adjective} short story about a {animal}."""
 prompt_multiple = ChatPromptTemplate.from_template(template_multiple)
+```
 
 # Part 3: System and human messages
+```python
 messages = [
     ("system", "You are a comedian who tells jokes about {topic}."),
     ("human", "Tell me {joke_count} jokes."),
 ]
 prompt_template = ChatPromptTemplate.from_messages(messages)
+```
 
 # Invoke the model with a message
+```python
 result = model.invoke(prompt_template.invoke({"topic": "cats", "joke_count": 3}))
 print(result.content)
 ```

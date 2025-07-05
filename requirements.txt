@@ -1,2 +1,6 @@
 langchain_google_genai
 dotenv
+langchain_community
+firecrawl-py
+langchain_chroma
+langchain_huggingface

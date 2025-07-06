@@ -4,3 +4,6 @@ langchain_community
 firecrawl-py
 langchain_chroma
 langchain_huggingface
+wikipedia
+pydantic
+tavily-python
